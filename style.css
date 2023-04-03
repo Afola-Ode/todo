@@ -27,7 +27,7 @@ p{
   margin: 0 auto;
 }
 .bg_header {
-  background-image: url(/images/bg-desktop-dark.jpg);
+  background-image: url(images/bg-desktop-dark.jpg);
   height: 38vh;
   display: flex;
   flex-direction: column;

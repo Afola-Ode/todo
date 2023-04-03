@@ -13,13 +13,13 @@ const renderTodos = () => {
     todoItemElement.textContent = todo;
     
     const editButton = document.createElement("img");
-    editButton.setAttribute("src", "/images/pencil.png");
+    editButton.setAttribute("src", "images/pencil.png");
     editButton.setAttribute("alt", "Edit");
     editButton.setAttribute("data-index", index);
     editButton.classList.add("edit");
     
     const deleteButton = document.createElement("img");
-    deleteButton.setAttribute("src", "/images/delete.png");
+    deleteButton.setAttribute("src", "images/delete.png");
     deleteButton.setAttribute("alt", "Delete");
     deleteButton.setAttribute("data-index", index);
     deleteButton.classList.add("delete");
