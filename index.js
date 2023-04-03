@@ -51,7 +51,7 @@ const handleAdd = () => {
 // Function to handle editing a todo item
 const handleEdit = (index) => {
   const todoItem = todoTray.children[index];
-  const todoText = todoItem.querySelector(".todo_item");
+  const todoText = todoItem.querySelector("#todo_item");
   const editButton = todoItem.querySelector(".edit");
   
   const editInput = document.createElement("input");
